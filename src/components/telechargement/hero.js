@@ -16,7 +16,7 @@ const Hero = () => {
 
         <div className="flex flex-wrap gap-3 justify-center md:justify-start">
           <a
-            href="https://votre-serveur.com/app-release.apk"
+            href="https://drive.google.com/file/d/1cUUvyQhz9zC4yNRnhVu3N855pJpHwrj5/view?usp=drive_link"
             className="inline-flex items-center bg-indigo-500 text-white px-6 py-3.5 rounded-full font-semibold transition-transform hover:-translate-y-1 hover:shadow-lg hover:shadow-indigo-500/40"
           >
             <i className="fab fa-android mr-2.5"></i>
