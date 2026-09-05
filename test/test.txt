@@ -5,16 +5,12 @@ import Layout from './components/Layout';
 import Dashboard from './pages/Dashboard';
 import ListePaiements from './pages/ListePaiements';
 import GestionCles from './pages/GestionCles';
-import DownloadAppPage from './pages/telechargement_app';
+// Import Details modal later
 
 function App() {
   return (
     <DataProvider>
       <Routes>
-        {/* Route pour la page de téléchargement */}
-        <Route path="/download" element={<DownloadAppPage />} />
-        
-        {/* Routes protégées */}
         <Route path="/" element={<Layout />}>
           <Route index element={<Dashboard />} />
           <Route path="paiements" element={<ListePaiements />} />
@@ -26,3 +22,27 @@ function App() {
 }
 
 export default App;
+
+
+
+
+
+
+// From src/app
+
+<div className="App">
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Edit <code>src/App.js</code> and save to reload.
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
+      </header>
+    </div>
